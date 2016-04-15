@@ -34,5 +34,6 @@ Generator.prototype.setupEnv = function setupEnv() {
   copy('favicon.ico');
   copy('robots.txt');
   copy('views/main.html');
+  copy('apiconnector/apiconnector.js');
   this.directory(join('app', 'images'), join(appPath, 'images'));
 };
