@@ -330,6 +330,15 @@ Generator.prototype.bootstrapFiles = function bootstrapFiles() {
     path.join(this.appPath, cssFile)
   );
 };
+/**San written***/
+Generator.prototype.connector = function connector() {
+  //var sass = this.compass || this.sass;
+  var connectorFile = 'apiconnector/apiconnector.js';
+   this.copy(
+    path.join('app', connectorFile),
+    path.join(this.appPath, connectorFile)
+  );
+};
 
 Generator.prototype.appJs = function appJs() {
   this.indexFile = this.appendFiles({
