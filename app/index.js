@@ -259,6 +259,11 @@ Generator.prototype.askForModules = function askForModules() {
       value: 'touchModule',
       name: 'angular-touch.js',
       checked: true
+    },
+    {
+      value: 'requirejs',
+      name: 'require.js',
+      checked: true
     }
     ]
   }];
@@ -273,6 +278,7 @@ Generator.prototype.askForModules = function askForModules() {
     this.routeModule = hasMod('routeModule');
     this.sanitizeModule = hasMod('sanitizeModule');
     this.touchModule = hasMod('touchModule');
+    this.requirejs = hasMod('requirejs');
 
     var angMods = [];
 
@@ -330,7 +336,7 @@ Generator.prototype.bootstrapFiles = function bootstrapFiles() {
     path.join(this.appPath, cssFile)
   );
 };
-/**San written***/
+/**written by san***/
 Generator.prototype.connector = function connector() {
   //var sass = this.compass || this.sass;
   var connectorFile = 'apiconnector/apiconnector.js';
