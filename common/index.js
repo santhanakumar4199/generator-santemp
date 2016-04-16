@@ -36,4 +36,5 @@ Generator.prototype.setupEnv = function setupEnv() {
   copy('views/main.html');
   copy('apiconnector/apiconnector.js');
   this.directory(join('app', 'images'), join(appPath, 'images'));
+  this.directory(join('app', 'apiconnector'), join(appPath, 'apiconnector'));
 };
