@@ -1,6 +1,6 @@
 {
   "name": "generator-santemp",
-  "version": "0.15.2",
+  "version": "0.15.3",
   "description": "Yeoman generator for AngularJS",
   "keywords": [
     "yeoman-generator",
@@ -32,10 +32,7 @@
     "script-base.js",
     "util.js"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/santhanakumar4199/generator-santemp.git"
-  },
+  "repository": "santhanakumar4199/generator-santemp",
   "scripts": {
     "test": "mocha"
   },
@@ -62,12 +59,5 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/santhanakumar4199/generator-santemp/issues"
-  },
-  "homepage": "https://github.com/santhanakumar4199/generator-santemp#readme",
-  "directories": {
-    "test": "test"
-  }
+  "license": "BSD-2-Clause"
 }
