@@ -12,8 +12,7 @@
     "angular-resource": "^<%= ngVer %>"<% } %><% if (routeModule) { %>,
     "angular-route": "^<%= ngVer %>"<% } %><% if (sanitizeModule) { %>,
     "angular-sanitize": "^<%= ngVer %>"<% } %><% if (touchModule) { %>,
-    "angular-touch": "^<%= ngVer %>"<% } %><% if (requirejs) { %>,
-    "requirejs": "^2.1.15" <% }%>
+    "angular-touch": "^<%= ngVer %>"<% } %>
   },
   "devDependencies": {
     "angular-mocks": "^<%= ngVer %>"
