@@ -1,6 +1,6 @@
 {
   "name": "generator-santemp",
-  "version": "0.15.7",
+  "version": "0.15.8",
   "description": "Yeoman generator for AngularJS",
   "keywords": [
     "yeoman-generator",
